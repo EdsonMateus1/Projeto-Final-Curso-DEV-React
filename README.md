@@ -1,6 +1,6 @@
 # Projeto-Final-Curso-DEV-React
 
-projeto final do curso dev web com react pela udemy,projeto simples mas que pode proposionar o uso dos varios conceitos aprendidos no curso
+projeto final do curso dev web com react pela udemy,projeto simples mas que pôde proposionar o uso dos varios conceitos aprendidos no curso
 o objetivo do curso era concluir o projeto sem uso de bibliotecas e framework,assim foi usado o proprio contextApi do react como tambem o useReducer do proprio react
 
 o CSS foi feito interamente por mim sem usar os codigos do instrutor do curso,assim como varias logicas na programacao do projeto
