@@ -1,0 +1,83 @@
+.backDrop{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 888;
+}
+.containerModel{
+    height: 30vh;
+    width: 100%;
+    top: 20%;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.containerModel form{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    width: 40%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #4834d4;
+    z-index: 999;
+    opacity: 0.8;
+}
+
+.inputForm{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #dff9fb;
+    font-size: 16px;
+    color: #4834d4;
+}
+@media screen and (max-width: 500px ){
+    .containerModel form{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        gap: 10px;
+        width: 100%;
+        height: 30vh;
+        border-radius: 10px;
+        background-color: #4834d4;
+        z-index: 999;
+        opacity: 0.8;
+    }
+    .inputForm{
+        width: 100%;
+        height: 30px;
+        padding-left: 10px;
+        border: none;
+        border-radius: 7px;
+        background-color: #dff9fb;
+        font-size: 16px;
+        color: #4834d4;
+    }
+}
+.buttonForm{
+    width: 80%;
+    height: 30px;
+    justify-self: center;
+    border: none;
+    border-radius: 7px;
+    font-size: 0.9em;
+    color: #211861;
+    background-color: #897de3;
+    cursor: pointer;
+}
+.buttonForm:disabled{
+    opacity: 0.5;
+    cursor: default;
+}

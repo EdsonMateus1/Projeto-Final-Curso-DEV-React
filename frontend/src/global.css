@@ -1,0 +1,15 @@
+/* 
+@font-face usada para criar fontes
+src : url ('caminho do arquivo da fonte')
+*/
+@font-face{
+  font-family: 'Lexend Deca';
+  src: url('./assets//fonts/original.ttf');
+}
+
+*{
+  font-family: 'Lexend Deca';
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}

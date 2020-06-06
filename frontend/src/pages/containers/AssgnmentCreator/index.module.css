@@ -1,0 +1,132 @@
+
+/* @keyframes mudarCor{
+    0%{
+        background-color: #4834d4;
+    }
+    50%{
+        background-color: white;
+    }
+    70%{
+        background-color: #1a89ff;
+    }
+}
+ */
+.headerContainer{
+    grid-area: header;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4834d4;
+}
+
+/*.headerContainer:hover{
+    animation: mudarCor 5s ease-in-out  alternate ;
+    transition: linear 0.5s;
+}*/
+
+.formContainer{
+    width: 50%;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px 10px;
+}
+
+.inputForm{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #dff9fb;
+    font-size: 16px;
+    color: #4834d4;
+    
+    
+}
+
+.inputForm::placeholder{
+    color: #4834d4;
+    opacity: 0.5;
+}
+.inputDateTime{
+    margin: 10px;
+    width: 65px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #dff9fb;
+    font-size: 16px;
+    color: #4834d4;
+    
+}
+.formContainer input[type="time"]{
+    justify-self: start;
+ 
+}
+.formContainer input[type="date"]{
+    justify-self: center;
+    width: 150px;
+   
+}
+
+.buttonForm{
+    width: 140px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #211861;
+    background-color: #897de3;
+    cursor: pointer;
+   
+}
+.buttonForm:disabled{
+    opacity: 0.5;
+    cursor: default;
+}
+
+
+@media screen and (max-width:500px) {
+    .inputDateTime{
+        margin: 10px;
+        width: 65px;
+        height: 30px;
+        padding-left: 10px;
+        border: none;
+        border-radius: 7px;
+        background-color: #dff9fb;
+        font-size: 16px;
+        color: #4834d4;
+        
+    }
+
+    .formContainer input[type="date"]{
+        justify-self: center;
+        width: 41vw;
+       
+    }
+
+
+    .buttonForm{
+        width: 80px;
+        height: 30px;
+        border: none;
+        border-radius: 7px;
+        font-size: 13px;
+        color: #211861;
+        background-color: #897de3;
+        cursor: pointer;
+    
+       
+    }
+    .buttonForm:disabled{
+        opacity: 0.5;
+        cursor: default;
+    }
+}

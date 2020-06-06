@@ -1,0 +1,12 @@
+.containerFilter{
+    grid-area: footer;
+    height:100px;
+    width: 100%;
+    background-color: #4834d4;
+    z-index: 2;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

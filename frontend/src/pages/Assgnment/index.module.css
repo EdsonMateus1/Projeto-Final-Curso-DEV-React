@@ -1,0 +1,7 @@
+.bodyContainer{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 'header ' 'main' 'footer';
+    background-color: #b8c7ff;
+}

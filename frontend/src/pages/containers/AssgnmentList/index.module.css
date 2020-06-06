@@ -1,0 +1,20 @@
+.mainContainer{
+    position: relative;
+    height: calc(100vh - 200px );
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9em;
+    overflow-y: scroll;
+    grid-area: main;
+ 
+}
+
+.mainContainer ul{
+    height: auto;
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 20px;
+}
+

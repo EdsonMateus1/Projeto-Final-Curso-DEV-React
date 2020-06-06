@@ -1,0 +1,10 @@
+.containerSelect{
+    height: 30px;
+    width: 240px;
+    border: none;
+    border-radius: 7px;
+    font-size: 0.9em;
+    color: #211861;
+    background-color: #8a7de3;
+    cursor: pointer;
+}
